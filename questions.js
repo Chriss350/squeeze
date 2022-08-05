@@ -32,6 +32,6 @@ const myQuestions = [
     {
         q: "Krój czcionki możemy określić poprzez:",
         opt: ["font-size", "text-family", "font-size", "family"],
-        ans: "font-size",
+        ans: "text-family",
     },
 ];
