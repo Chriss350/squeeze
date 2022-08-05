@@ -17,6 +17,6 @@ const myQuestions = [
     {
         q: "Znacznik <img> odpowiada za:",
         opt: ["nie ma takiego znacznika", "kolor tekstu", "wstawienie obrazka", "Ustawienie 'tapety' w tle strony "],
-        ans: "Markup Language",
+        ans: "nie ma takiego znacznika",
     },
 ];

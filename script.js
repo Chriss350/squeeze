@@ -185,7 +185,7 @@ const showResults = () => {
     const scoreOnBoard = document.querySelector("#score");
 
     hideGUI();
-    scoreOnBoard.textContent = `Your Score: ${localStorage.getItem("score")}`;
+    scoreOnBoard.textContent = `Twój wynik: ${localStorage.getItem("score")}`;
     game.classList = "gameBoard isHidden";
     results.classList.remove("isHidden");
 };
