@@ -141,7 +141,7 @@ const clearQuestion = () => {
 const checkAnswer = () => {
     const userAnswer = document.querySelector(".ans-item.thought.checked");
 
-    if ((userAnswer.textContent = myQuestions[x].ans)) {
+    if (userAnswer.textContent == myQuestions[x].ans) {
         let scoreValue = 100;
         let lsScore = JSON.parse(localStorage.getItem("score"));
         let scoreSum = lsScore + scoreValue;
