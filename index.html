@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Squeeze</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header class="header">
+            <h1 class="logo">Squizee</h1>
+
+            <div class="lblScore isHidden">Score: <span class="score"></span></div>
+            <div class="lblQuestionNumber isHidden"></div>
+        </header>
+        <div class="game">
+            <div class="lSide"><img src="./img/squirrel.png" alt="Squirrel logo" /></div>
+            <div class="rSide">
+                <div class="startBoard">
+                    <div class="thought">
+                        <h2>welcomce in my simply quiz app</h2>
+                        <p>this is a small project for js programming practice</p>
+                        <p class="start"><b>Lets Start Quiz</b></p>
+                    </div>
+                </div>
+                <div class="gameBoard isHidden">
+                    <div class="question thought"></div>
+                    <ul class="ans-items"></ul>
+                    <div class="btns">
+                        <div id="next" class="btn next thought">Next</div>
+                        <div id="checkResults" class="btn next thought isHidden">Check Results</div>
+                    </div>
+                </div>
+                <div class="resultsBoard isHidden">
+                    <div class="thought">
+                        <h3>Results Board</h3>
+                        <h4 id="score"></h4>
+                        <p class="restart">Play Again</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./questions.js"></script>
+        <script src="./script.js"></script>
+    </body>
+</html>
